@@ -1,0 +1,13 @@
+name: ncc
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - cupy
+  - cudnn
+  - cutensor
+  - numpy
+  - matplotlib
+  - scipy
+  - jupyter

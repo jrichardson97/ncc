@@ -64,7 +64,7 @@ class NccParams:
     lamb: float = field(init=False)  # pulse wavelength (m)
 
     def __post_init__(self):
-        self.lamb = self.c + self.fc
+        self.lamb = self.c / self.fc
 
 
 def ncc(
